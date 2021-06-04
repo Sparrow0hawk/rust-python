@@ -4,7 +4,9 @@ Based off a [Red hat blog](https://developers.redhat.com/blog/2017/11/16/speed-p
 
 ## Setup
 
-Create a venv
+This work was performed on macOS 11.4 and specific `rustflags` have been set in `pyext-myrustlib/.cargo/config` for building on macOS.
+
+Create a venv with requirements.
 
 ```bash
 python -m venv myenv
