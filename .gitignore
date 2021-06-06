@@ -2,3 +2,5 @@ myenv
 __pycache__
 **/target
 *.so
+build
+*.c
