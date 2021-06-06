@@ -15,3 +15,11 @@ source myenv/bin/activate
 
 (myenv) pip install -r requirements.txt
 ```
+
+## Building cython double implementation
+
+Now added a quick cythonized version of double. You can compile this locally by doing:
+
+```bash
+python setup.py build_ext --inplace
+```
